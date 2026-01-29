@@ -2,7 +2,7 @@
 
 > **Chạy, kiểm thử và tương tác với script Python trên nhiều phiên bản cùng một lúc.**
 
-**PyMultiRunner** là một công cụ dòng lệnh (CLI) mạnh mẽ dành cho **Linux/macOS**, giúp các nhà phát triển Python kiểm tra độ tương thích của mã nguồn trên nhiều trình thông dịch (Python 3.8, 3.9, 3.10, 3.11, 3.12...) song song trong thời gian thực.
+**PyMultiRunner** là một công cụ dòng lệnh (CLI) mạnh mẽ dành cho **Linux/macOS**, giúp các nhà phát triển Python kiểm tra độ tương thích của mã nguồn trên nhiều trình thông dịch (Python3x ...) song song trong thời gian thực.
 
 Được xây dựng dựa trên thư viện [Textual/Rich](https://github.com/Textualize/rich), công cụ mang lại giao diện terminal đẹp mắt, hỗ trợ tương tác Shell (REPL) và quản lý tiến trình thông minh.
 
@@ -52,10 +52,10 @@ pip install rich colorama
 Bạn có thể chạy tool và chọn file từ danh sách, hoặc chỉ định file ngay từ đầu:
 
 # Cách 1: Chọn file từ giao diện
-python runner.py
+python PyMultiRunner.py
 
 # Cách 2: Chỉ định file script cần test
-python runner.py my_script.py
+python PyMultiRunner.py my_script.py
 2. Menu Cấu Hình
 
 Khi khởi động, tool sẽ liệt kê các phiên bản Python tìm thấy.
@@ -89,5 +89,5 @@ UI Rendering: rich.live.Live được dùng để vẽ lại giao diện liên t
 Chương trình được thiết kế chủ yếu cho môi trường dòng lệnh (CLI).
 
 Nếu script mục tiêu của bạn sinh ra quá nhiều output (hàng ngàn dòng/giây), giao diện có thể bị lag nhẹ do việc vẽ lại UI của terminal.
-
+```
 Made with ❤️ by MinhNguyen2412
