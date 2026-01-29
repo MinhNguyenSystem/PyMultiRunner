@@ -90,4 +90,4 @@ Chương trình được thiết kế chủ yếu cho môi trường dòng lện
 
 Nếu script mục tiêu của bạn sinh ra quá nhiều output (hàng ngàn dòng/giây), giao diện có thể bị lag nhẹ do việc vẽ lại UI của terminal.
 
-Made wituyen2412
+Made with ❤️ by MinhNguyen2412
