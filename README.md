@@ -12,11 +12,11 @@
 
 ### 1. Giao diện chạy đa phiên bản (Split-Pane View)
 Hiển thị song song output, hỗ trợ màu sắc cú pháp và trạng thái tiến trình.
-![Running Interface](https://i.ibb.co/DPQcby78/Screenshot-2026-01-30-02-29-10-104-com-termux-edit.jpg)
+![Running Interface](https://drive.google.com/uc?export=view&id=1DYgu-YKsVGJsitXs5OU-kjq-wLDuAdmr)
 
 ### 2. Menu chọn phiên bản
 Tự động quét và cho phép bật/tắt các phiên bản Python tìm thấy trong hệ thống.
-![Menu Version](https://i.ibb.co/99D2tbmx/Screenshot-2026-01-30-02-26-25-231-com-termux-edit.jpg)
+![Menu Version](https://drive.google.com/uc?export=view&id=1OdgtNGnImk3jXbwq_hIa-hoN5oOmzbPa)
 
 ---
 
